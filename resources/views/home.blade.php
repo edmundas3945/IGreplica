@@ -7,7 +7,7 @@
             <img style="height: 150px ;" src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/ikqra03zdnggljdu5vv0" alt="pic"  class="rounded-circle">
         </div>
         <div class="col-9 pt-5">
-            <div><h1>FreeCodeCamp</h1></div>
+            <div><h1>{{ $user->username }}</h1></div>
             <div class="d-flex">
                 <div class="pe-3"><strong>153</strong> Posts</div>
                 <div class="pe-3"><strong>101k</strong> Followers</div>
