@@ -13,9 +13,8 @@
                 <div class="pe-3"><strong>101k</strong> Followers</div>
                 <div class="pe-3"><strong>352</strong> Following</div>
             </div>
-            <div><strong></strong></div>
-            <div>We're a global community of millions of people learning to code together.
-LearnToCodeRPG: https://www.freecodecamp.org/news/learn-to-code-rpg/</div>
+            <div><strong>{{ $user->profile->title }}</strong></div>
+            <div>{{ $user->profile->description }}</div>
             <div><strong><a href="www.freecodecamp.org">www.freecodecamp.org</a></strong> </div>
         </div>
     </div>
