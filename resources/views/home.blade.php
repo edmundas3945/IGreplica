@@ -15,7 +15,7 @@
             </div>
             <div><strong>{{ $user->profile->title }}</strong></div>
             <div>{{ $user->profile->description }}</div>
-            <div><strong><a href="www.freecodecamp.org">www.freecodecamp.org</a></strong> </div>
+            <div><strong><a href={{ $user->profile->url }}>{{ $user->profile->url }}</a></strong> </div>
         </div>
     </div>
     <div class="row pt-5">
